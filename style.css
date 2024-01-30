@@ -1,8 +1,5 @@
 html, body {
     padding: 0;
-    padding-top: 0.9vw;
-    padding-left: 0.9vw;
-    padding-bottom: 0.9vw;
     margin: 0; 
 }
 
@@ -14,7 +11,7 @@ body { font-family: sans-serif; }
 
 .grid {
   background: #ffffff;
-  height: 90vh;
+  height: 100vh;
 }
 
 
@@ -29,8 +26,8 @@ body { font-family: sans-serif; }
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 24.1vw;
-  height: 22vh;
+  width: 25vw;
+  height: 25vh;
   float: left;
   display: flex; 
   flex-direction: column; 
@@ -46,10 +43,14 @@ a{
     align-items: center;
 }
 
-.grid-item--width2 { width: 48.2vw; }
-.grid-item--width3 { width: 72.3vw; }
+.grid-item--width2 { width: 50vw; }
+.grid-item--width3 { width: 75vw; }
 .grid-item--width4 { width: 100vw; }
 
-.grid-item--height2 { height: 46vh; }
+.grid-item--height2 { height: 50vh; }
 .grid-item--height3 { height: 75vh; }
 .grid-item--height4 { height: 100vh; }
+
+body::-webkit-scrollbar {
+  display: none;
+}
